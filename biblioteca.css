@@ -1,0 +1,70 @@
+p{
+    color: black !important;
+    background-color: #dd7575;
+}
+
+#foto-uno {
+    display: flex;
+    flex-direction: row;
+}
+
+img {
+    width: 100%;
+}
+img:active{
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
+#foto-dos-tres {
+    margin: auto;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+
+#foto-uno:active{
+
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+h2:hover {
+    font-size: 28px;
+}
+
+@media screen and (min-width: 300px) and (max-width: 550px) {
+    * {
+        visibility: hidden;
+    }
+}
+
+img:active{
+    box-shadow: 14px 8px 8px grey;
+}
+
+h1 {
+    display: none;
+}
+
+
+@media screen and (max-width: 800px) and (min-width: 500px) {
+
+        #libro {
+            display: none;
+        }
+
+        h1{
+            display: block;
+            width: 100%;
+            color: rgb(255, 0, 0);
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        } 
+
+        
+
+    }
